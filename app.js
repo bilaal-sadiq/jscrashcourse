@@ -1,1 +1,2 @@
-console.log('Bilal'[0])
+console.log('Hello World'[10])
+console.log('12345'.length)
