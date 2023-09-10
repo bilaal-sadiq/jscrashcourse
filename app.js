@@ -1,12 +1,12 @@
-let subscribed = false
-let loggedIn = true
+let cash = 30
+let price = 40
 
-if (subscribed === true) {
-    console.log('Show the video')
+if (cash > price) {
+    console.log ("You paid extra - here's your change")
 }
-else if (loggedIn === true) {
-    console.log('tell the user to upgrade their subscription')
+else if (cash === price) {
+    console.log("you paid the exact amount, have a nice day")
 }
 else {
-    console.log ('tell user to log into account')
+    console.log('not enough money - you still owe x dollars')
 }
