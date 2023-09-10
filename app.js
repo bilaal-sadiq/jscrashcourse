@@ -1,10 +1,13 @@
-let fullName = 'Bilaal Sadiq'
+/*
+* Converting Temperatures 
+*
+* Celsius-to-Fahrenheit formula 
+*
+* F = C x 1.8 + 32 
 
-let isRaining = true
-let temperature = 20
-let planet = 'Earth'
 
-temperature = temperature + 2
+let celsius = 10
+let fahrenheit = celsius * 1.8 + 32
 
-console.log(temperature)
+console.log(fahrenheit) */
 
