@@ -1,9 +1,5 @@
-// DRY Don't repeat yourself 
-
-//Function Definition
-function welcomePersonToFES(firstName, lastName) {
-    console.log(`Welcome to FES, ${firstName} ${lastName}`)
+function sumOfTwoNumbers(num1, num2) {
+    return num1 + num2
 }
 
-// Call the function
-welcomePersonToFES('Bilaal', 'Afrah');
+console.log(sumOfTwoNumbers(10, 10));
