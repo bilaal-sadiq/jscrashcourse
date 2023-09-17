@@ -1,11 +1,9 @@
-// // DRY Dont repeat yourself
-// let count = 1;
+// DRY Don't repeat yourself 
 
-// while(count <= 100) {
-//     console.log(count)
-//     count = count + 1;
-// }
+//Function Definition
+function welcomePersonToFES(firstName, lastName) {
+    console.log(`Welcome to FES, ${firstName} ${lastName}`)
+}
 
-// for (let i = 0; i < 100; i++) {
-//     console.log(i)
-// }
+// Call the function
+welcomePersonToFES('Bilaal', 'Afrah');
