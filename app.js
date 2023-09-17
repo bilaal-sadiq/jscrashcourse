@@ -1,11 +1,9 @@
-let cash = 50
-let price = 40
-let isStoreOpen = true
+let val = "Bilaal";
 
-if ("") {
-    console.log('print the receipt')
+if (val){
+    console.log(!!val)
 }
 
 else {
-    console.log("falsy value")
+    console.log(!!val)
 }
