@@ -1,8 +1,7 @@
-function convertCelsiusToFahrenheit (celsius) {
-    let fahrenheit = celsius * 1.8 + 32
-    return fahrenheit
-}
+// DRY = Don't repeat yourself
+let count = 1;
 
-console.log(convertCelsiusToFahrenheit(0))
-console.log(convertCelsiusToFahrenheit(10))
-console.log(convertCelsiusToFahrenheit(30))
+while (count <= 100) {
+  console.log('This ran')
+    count = count + 1; 
+}
